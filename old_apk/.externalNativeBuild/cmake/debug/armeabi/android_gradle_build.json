@@ -1,0 +1,65 @@
+
+{
+	"buildFiles" : [ "C:/Users/liupei/NdkDemo/old_apk/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\NdkDemo\\old_apk\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"bspatch-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "bspatch",
+			"buildCommand" : "C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\NdkDemo\\old_apk\\.externalNativeBuild\\cmake\\debug\\armeabi --target bspatch",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain C:/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/SDK/ndk-bundle/platforms/android-15/arch-arm -Dbspatch_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/liupei/NdkDemo/old_apk/src/main/cpp/bspatch/bspatch.c",
+					"workingDirectory" : "C:/Users/liupei/NdkDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "C:/Users/liupei/NdkDemo/old_apk/build/intermediates/cmake/debug/obj/armeabi/libbspatch.so",
+			"toolchain" : "181465261"
+		},
+		"compress-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "compress",
+			"buildCommand" : "C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\NdkDemo\\old_apk\\.externalNativeBuild\\cmake\\debug\\armeabi --target compress",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain C:/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/SDK/ndk-bundle/platforms/android-15/arch-arm  -Dcompress_EXPORTS -isystem C:\\SDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\SDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem C:\\SDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/liupei/NdkDemo/old_apk/src/main/cpp/imagecompress/compress.cpp",
+					"workingDirectory" : "C:/Users/liupei/NdkDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "C:/Users/liupei/NdkDemo/old_apk/build/intermediates/cmake/debug/obj/armeabi/libcompress.so",
+			"toolchain" : "181465261"
+		},
+		"libjpeg-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libjpeg",
+			"buildType" : "debug",
+			"output" : "C:/Users/liupei/NdkDemo/old_apk/src/main/jniLibs/armeabi/libjpeg.so",
+			"toolchain" : "181465261"
+		}
+	},
+	"toolchains" : 
+	{
+		"181465261" : 
+		{
+			"cCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

@@ -1,0 +1,4 @@
+C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/bspatch.dir
+C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/compress.dir

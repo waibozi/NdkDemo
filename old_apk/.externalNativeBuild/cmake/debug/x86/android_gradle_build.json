@@ -1,0 +1,65 @@
+
+{
+	"buildFiles" : [ "C:/Users/liupei/BsPatchDemo/old_apk/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\BsPatchDemo\\old_apk\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"bspatch-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "bspatch",
+			"buildCommand" : "C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\BsPatchDemo\\old_apk\\.externalNativeBuild\\cmake\\debug\\x86 --target bspatch",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain C:/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/SDK/ndk-bundle/platforms/android-15/arch-x86 -Dbspatch_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/liupei/BsPatchDemo/old_apk/src/main/cpp/bspatch.c",
+					"workingDirectory" : "C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "C:/Users/liupei/BsPatchDemo/old_apk/build/intermediates/cmake/debug/obj/x86/libbspatch.so",
+			"toolchain" : "181465261"
+		},
+		"compress-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "compress",
+			"buildCommand" : "C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\BsPatchDemo\\old_apk\\.externalNativeBuild\\cmake\\debug\\x86 --target compress",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target i686-none-linux-android -gcc-toolchain C:/SDK/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=C:/SDK/ndk-bundle/platforms/android-15/arch-x86  -Dcompress_EXPORTS -isystem C:\\SDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\SDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\include -isystem C:\\SDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -std=gnu++11 -Wall -DGLM_FORCE_SIZE_T_LENGTH -DGLM_FORCE_RADIANS -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/liupei/BsPatchDemo/old_apk/src/main/cpp/compress.cpp",
+					"workingDirectory" : "C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "C:/Users/liupei/BsPatchDemo/old_apk/build/intermediates/cmake/debug/obj/x86/libcompress.so",
+			"toolchain" : "181465261"
+		},
+		"libjpeg-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "libjpeg",
+			"buildType" : "debug",
+			"output" : "src/main/jniLibs/x86/libjpeg.so",
+			"toolchain" : "181465261"
+		}
+	},
+	"toolchains" : 
+	{
+		"181465261" : 
+		{
+			"cCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

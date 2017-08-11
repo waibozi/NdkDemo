@@ -1,0 +1,4 @@
+C:/Users/liupei/NdkDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
+C:/Users/liupei/NdkDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/bspatch.dir
+C:/Users/liupei/NdkDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
+C:/Users/liupei/NdkDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/compress.dir

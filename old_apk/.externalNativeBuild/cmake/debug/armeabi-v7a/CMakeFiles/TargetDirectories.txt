@@ -1,0 +1,4 @@
+C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/bspatch.dir
+C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/liupei/BsPatchDemo/old_apk/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/compress.dir
